@@ -39,28 +39,28 @@
             android:background="@color/colorPrimaryDark">
 
             <TextView
-                android:id="@+id/label_date"
+                android:id="@+id/account_label_account"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="0"
                 android:text="@string/date_text"/>
 
             <TextView
-                android:id="@+id/label_acount"
+                android:id="@+id/account_label_bank"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="1"
                 android:text="@string/account_text"/>
 
             <TextView
-                android:id="@+id/label_type"
+                android:id="@+id/account_label_holder_name"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="2"
                 android:text="@string/expense_type_text"/>
 
             <TextView
-                android:id="@+id/label_amount"
+                android:id="@+id/account_label_amount_balance"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_column="3"

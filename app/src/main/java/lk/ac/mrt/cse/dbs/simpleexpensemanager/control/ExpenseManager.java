@@ -92,6 +92,11 @@ public abstract class ExpenseManager implements Serializable {
         accountsHolder.addAccount(account);
     }
 
+
+    public List<Account> getAccountsList() {
+        return accountsHolder.getAccountsList();
+    }
+
     /***
      * Get access to the AccountDAO concrete implementation.
      *
